@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    background-color: aquamarine;
+    .box{
+        width: 140px;
+        height: 100px;
+        background-color: red;
+        h1{
+          color: green;
+        }
+    }
+
+}
+.container2{
+    width: 100%;
+    background-color:black;
+    p{
+        width: 500px;
+        height:100px;
+        color:red;
+        padding:20px 100px;
+    }
+}

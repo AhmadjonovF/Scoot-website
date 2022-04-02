@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Js</title>
+    <link rel="stylesheet" href="style3.css">
+   
+</head>
+<body>
+    <div class="time">
+         <h1>DATA TIME</h1>
+    </div>
+
+    <div class="date">
+
+        <h3>
+            <span class="hour">00</span>-soat
+            <span class="oylar">00</span>-oylar
+            <span>00</span>-yil
+
+        </h3>
+    </div>
+    <script>
+
+        // settings clock
+        function showTime() {
+            let data = new Date();
+            let ildiz = data.toTimeString().split(" ")[0];
+            document.querySelector('.hour').textContent = ildiz;
+        }
+        showTime();
+        setInterval(() =>{
+            showTime();
+        },1000);
+
+
+        // setting years
+       
+      let sana = new Date();
+      let yil = sana.getFullYear();
+
+      let oy = sana.getMonth();
+      let oylar =["yanvar", "fevral", "mart","aprel","may","iyun","iyul","avgust","sentabr","oktabr","noyabr","dekabr"]
+      let span = document.querySelector('span').innerHTML = yil;
+
+
+
+
+
+
+    
+   
+   
+   </script>
+</body>
+</html>
+
+        
+ 

@@ -1,0 +1,592 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width:100%;
+    height: 20vh;
+    display:flex;
+    align-items: center;
+}
+nav {
+    margin-right: -200px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin:0 140px;
+}
+nav ul h1{
+    width: 107.82px;
+    height: 28.56px;
+    left: 169px;
+    top: 34px;
+    color: #495567;
+    font-size:50px;
+    margin-top:-20px;
+}
+nav ul li{
+    padding-left: 60px;
+}
+nav a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+
+header button{
+    width:180px;
+    height: 53px;
+    background: #FCB72B;
+    color:white;
+    border:none;
+    margin-left: 900px;
+
+}
+
+                        /* MAIN QISMI.................. */
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+.color{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(50, 43, 155, 0.562);
+    position: absolute;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+    height: 100vh;
+    
+}
+.color h1{
+    width: 450px;
+    height: 112px;
+    color: white;
+    margin:153px 163px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+}
+.color p{
+    width: 350px;
+    height: 100px;
+    margin:-100px 260px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.border img{
+    width:100%;
+    height: 12px;
+    margin-left:-44%;
+    margin-top: 3%;
+   
+}
+
+.border2 {
+    width:25%;
+    height: 15%;
+    margin:-10px 50%;
+    position: absolute;
+}
+.border3{
+   width:36px;
+   height: 76px;
+   margin:35px 73%;
+   position: absolute;
+
+    
+} 
+
+.doiralar{
+    width:220px;
+    height:62px;
+    display: flex;
+    margin:40px 86%;
+   
+    
+}
+.doira{
+    width:62px;
+    height:62px;
+    border-radius: 50%;
+    margin:0 7px;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    
+}
+
+.doira2{
+    width:62px;
+    height:62px;
+    border-radius: 50%;
+    margin:0 7px;
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+   
+}
+.doira3{
+    width:62px;
+    height:62px;
+    border-radius: 50%;
+    margin:0 7px;
+    background-color: white;
+    box-sizing: border-box;
+    
+    
+}
+
+button{
+    width:180px;
+    height: 53px;
+    margin:-5% 20%;
+    background: #FCB72B;
+    position: absolute;
+}
+
+/* .................MALUMOT QISMI......... */
+.malumot{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.malumot .chiziq{
+    width: 974px;
+    border: 10px solid #E5ECF4;
+    margin:2 0;
+}
+
+.malumot .suratlar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin:-27% 0;
+}
+
+.telefon{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin:0 150px;
+    background-color: #FCB72B;
+}
+.poyez{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin:0 130px;
+    background-color: #FCB72B;
+}
+.poyez2{
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin:0 130px;
+    background-color: #FCB72B;
+}
+.telefon img{
+    margin:20px 34px;
+}
+.poyez img{
+    margin:26px 28px;
+}
+.poyez2 img{
+    margin:22px 28px;
+}
+
+
+.sahifa{
+    width: 100%;
+    height: 160px;
+    margin:300px 150px;
+    display: flex;
+}
+.sahifa .first{
+    width:300px;
+    height:100px;
+ 
+   
+}
+
+.sahifa .second{
+    width:300px;
+    height:100px; 
+    margin:0 70px;
+}
+
+.sahifa .third{
+    width:300px;
+    height:100px;
+   
+}
+.sahifa h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07143px; 
+    color: #495567;
+    
+}
+.sahifa p{
+    font-style: normal;
+    font-weight: normal;
+    margin:30px 0;
+    font-size: 15px;
+    line-height: 20px;
+    color: #939CAA;
+}
+
+ /* ..................EASY qismi.... */
+
+ .easy{
+     width: 100%;
+     height: 100vh;
+     overflow: hidden;
+     position: relative;
+
+ }
+ .easy .box{
+     width: 100%;
+     height: 100vh;
+ }
+ .box .words{
+    width: 445px;
+    height: 95px;
+    margin-left: 155px;
+    padding-top: 200px;
+ }
+ .box button{
+     width: 180px;
+     height: 53px;
+     border: none;
+     margin:240px 155px;
+     background: #FCB72B;
+ }
+
+ .words h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+ }
+ .words p{
+    width: 370px;
+    height: 100px;
+    font-style: normal;
+    font-weight: normal;
+    margin:10px 0;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    
+ }
+
+ .easy .boy{
+     width: 747px;
+     height: 498px;
+     display: flex;
+ }
+ .boy .boys{
+     width:390px;
+     height: 390px;
+     border-radius: 50%;
+     margin:-20px 690px;
+     position: absolute;
+ }
+ .boy .shar{
+     width:390px;
+     height:390px;
+     margin:0 1170px;
+     position: absolute;
+     border-radius: 50%;
+     background: #E5ECF4;
+ }
+.box img{
+    width: 800px;
+    height: 100px;
+    margin:200px 550px;
+    position: absolute;
+}
+.box .border5{
+    width:38px;
+    height: 76px;
+    margin:255px 620px;
+}
+
+.city{
+    width: 100%;
+    height: 100vh;
+}
+.city_box{
+    width: 100%;
+    display: flex;
+    margin-left:-300px;
+
+}
+
+.city_box .shar2{
+    width:390px;
+    height: 390px;
+    border-radius: 50%;
+    background: #E5ECF4;
+    margin-top: 100px;
+}
+
+.city_box .img{
+    width:390px;
+    height: 390px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.city_text{
+    width: 440px;
+    height: 250px;
+    margin:170px 1050px;
+    position: absolute;
+    
+    
+   
+}
+.city_text h1{
+    width:390px;
+    height: 96px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+}
+.city_text p{
+    width:370px;
+    height: 100px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+.city button{
+    width:180px;
+    height: 53px;
+    margin:420px 1050px;
+    border:none;
+    background: #FCB72B;
+}
+.border6{
+    width: 300px;
+    height: 80px;
+    margin:65px -490px;
+}
+.border7{
+    width:38px;
+    height: 76px;
+    margin:-275px -490px;
+    position: absolute;
+   
+}
+                                          /* ZERO qismi........... */
+.zero{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.zero .zero_text{
+    width:440px;
+    height: 200px;
+    position: absolute;
+}
+.zero_text h1{
+    width:350px;
+    height: 96px;
+    font-style: normal;
+    font-weight: bold;
+    margin:100px 75px;
+    font-size: 48px;
+    letter-spacing: -2.14286px;
+    color: #495567;
+    
+}
+.zero_text p{
+    width:370px ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    margin:-50px 75px;
+    color: #939CAA;
+}
+.zero_text button{
+    width:180px;
+    height: 50px;
+    margin:100px 75px;
+    border: none;
+}
+.art{
+    width: 860px;
+    display: flex;
+    margin:30px 700px;
+    position: relative;
+}
+
+
+.zero_art{
+    width:390px;
+    height: 390px;
+    border-radius: 50%;
+    background:#E5ECF4;
+    margin:0 450px;
+    position: absolute;
+   
+}
+
+.art .money{
+    width:390px;
+    height: 390px;
+    border-radius: 50%;
+    margin-left: 20px;
+
+}
+.bm{
+    width: 330px;
+    margin:-360px 933px;
+    position: absolute;
+}
+.bm2{
+    width:38px;
+    height: 76px;
+    margin:-299px 922px;
+    position: absolute;
+}
+
+.sign{
+    width: 100%;
+    height: 40vh;
+    background:#495567;
+    overflow: hidden;
+    position: relative;
+}
+.boxes .box{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin:100px 1150px;
+    background: #939CAA;
+    border: 15px solid #939CAA;
+    position: absolute;
+}
+
+.boxes .box2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin:100px 790px;
+    border: 15px solid #939CAA;
+    position: absolute;
+}
+
+.boxes .box3{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin:100px 420px;
+    border: 15px solid #939CAA;
+    position: absolute;
+}
+.sign h1{
+    width:310px;
+    height: 96px;
+    margin:70px 230px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14286px;
+    position: absolute;
+    color: #FFFFFF;
+}
+
+.icons{
+    width:330px;
+    height: 56px;
+    display: flex;
+    margin:80px 850px;
+    position: absolute;
+}
+.icons .apple{
+    width: 159px;
+    height: 56px;
+    background: #E5ECF4;
+    border-radius: 4px;
+}
+.icons .google{
+    width:186px;
+    height: 56px;
+    margin:0 15px;
+    background: #E5ECF4;
+    border-radius: 4px;
+
+}
+.apple i{
+    font-size:5px;
+    position: absolute;
+}
+.apple h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.892857px;
+    color: #495567;
+}
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 96px;
+    background: #333A44;
+    overflow: hidden;
+}
+footer nav{
+    margin:30px 70px;
+}
+footer nav ul h1{
+    color:#FFFFFF;
+}
+footer .f{
+    margin:-50px 900px;
+    position: absolute;
+}
+footer .bird{
+    margin:-50px 940px;
+    position: absolute;
+}
+footer .insta{
+    margin:-50px 980px;
+    position: absolute;
+}

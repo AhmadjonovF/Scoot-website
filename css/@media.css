@@ -1,0 +1,125 @@
+                /* HEADER QISMI  PLANSHET MEDIA............. */
+
+
+
+@media (max-width: 1030px){
+    header button{
+        margin-left: 740px;
+    
+    }
+}
+@media (max-width: 935px){
+    nav ul{
+        margin:0 120px;
+    }
+    header button{
+        margin-left: 700px;
+    
+    }
+}
+@media (max-width: 890px){
+    nav ul{
+        margin:0 90px;
+    }
+    header button{
+        margin-left: 600px;
+    
+    }
+
+
+}
+@media (max-width: 797px){
+    nav ul{
+        margin:0 7%;
+    }
+    header button{
+        margin-left: 570px;
+    
+    }
+   
+}
+@media (max-width: 767px){
+    nav ul{
+        margin:0 50px;
+    }
+    header button{
+        margin-left: 550px;
+    
+    }
+}
+
+    /* HEADER QISMI TELEFON FARMAT.......... */
+
+    @media (max-width: 745px){
+        nav ul li{
+           display:none;
+        }
+        nav ul h1{
+            margin:0 150px;
+        }
+        header button{
+            display:none;
+        
+        }
+    }
+    @media (max-width: 510px){
+        nav ul h1{
+            margin:0 120px;
+        }
+    }
+    @media (max-width: 450px){
+        nav ul h1{
+            margin:0 100px;
+        }
+    }
+    @media (max-width: 405px){
+        nav ul h1{
+            margin:0 80px;
+        }
+    }
+                            /* MAIN QISMI PLANSHET FARMAT */
+    @media (max-width:1029x){
+        .color h1{
+            width: 520px;
+            height: 112px;
+            color: white;
+            margin:153px 163px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -2.5px;
+        } 
+
+       }
+    @media(max-width:850px){
+            .doiralar{
+                 margin:30% 76%;
+            
+                 }
+             button{
+                margin:45% 40%;
+            
+                    }
+
+               }
+
+               @media(max-width:770px){
+                .border3{
+                    margin:225px 21%;
+                   
+                     }  
+                   }
+
+                                  /* MAIN QISMI TELEFON FARMAT.... */
+   @media (max-width:px){
+    .doiralar{
+         margin:28% 76%;
+    
+         }}
+
+         @media (max-width:px){
+            .doiralar{
+                 margin:27% 72%;
+            
+                 }}

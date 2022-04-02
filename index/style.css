@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.container .box {
+  width: 140px;
+  height: 100px;
+  background-color: red;
+}
+
+.container .box h1 {
+  color: green;
+}
+
+.container2 {
+  width: 100%;
+  background-color: black;
+}
+
+.container2 p {
+  width: 500px;
+  height: 100px;
+  color: red;
+  padding: 20px 100px;
+}
+/*# sourceMappingURL=style.css.map */
